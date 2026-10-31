@@ -2,4 +2,6 @@ pandas
 Numpy
 seaborn
 matplotlib
+catboost
+xgboost
 -e .

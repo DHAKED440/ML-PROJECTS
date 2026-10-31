@@ -24,12 +24,3 @@ class CustomException(Exception):
      def __str__(self):
         return self.error_message
 
-if __name__ ==  "__main__" :
-    try:
-      logging.info("Logging has started")
-      a = 10
-      b = 0
-      result = a / b
-    except Exception as e :
-        logging.exception("Error occurred")
-        raise CustomException(e, sys)
