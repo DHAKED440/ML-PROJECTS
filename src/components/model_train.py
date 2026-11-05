@@ -50,6 +50,8 @@ class ModelTrainer:
 
                }
 
+             
+
                model_report:dict=evaluate_model(x_train=X_train , y_train=y_train , x_test=X_test , y_test=y_test ,
                                                 models=models)
                
